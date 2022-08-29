@@ -1,0 +1,54 @@
+﻿body {
+}
+h1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 20px 0;
+    align-items: center;
+}
+
+    h1:after, h1:before {
+        content: " ";
+        display: block;
+        border-top: 1px solid #303030;
+        border-bottom: 1px solid #303030;
+        height: 0px;
+        background-color: #303030;
+    }
+}
+div {
+    justify-content:center;
+}
+.list-group-item {
+    border-top: none;
+    border-left:none;
+    border-right:none;
+}
+.btn-primary {
+    transition-duration: 0.4s;
+}
+    .btn-primary:hover {
+        background-color: #24362a; /* Green */
+        color: #76c38f;
+    }
+.card {
+    transition-duration: 0.4s;
+}
+
+
+
+.card:hover {
+    background-color: #76c38f; /* Green */
+    color: white;
+}
+a {
+    color: #76c38f;
+}
+.hover-hide {
+    transition-duration: 0.4s;
+}
+
+    .hover-hide:hover {
+        opacity:0%;
+    }
